@@ -1,0 +1,103 @@
+/* ------------------------------
+   TRIPLE O.G TITANS - BRAND THEME
+--------------------------------*/
+
+/* Color Variables */
+:root {
+  --titan-navy: #0e2a39;
+  --forge-orange: #d77922;
+  --offwhite-sand: #f3ede4;
+  --titan-steel: #6b777f;
+  --muscle-gold: #f7a846;
+  --shadow-charcoal: #1b1b1b;
+
+  --font-header: "Anton", "Oswald", sans-serif;
+  --font-body: "Inter", "Roboto", sans-serif;
+}
+
+/* Global Styles */
+body {
+  background: var(--offwhite-sand);
+  color: var(--titan-navy);
+  font-family: var(--font-body);
+  margin: 0;
+}
+
+/* Headers */
+h1,
+h2,
+h3 {
+  font-family: var(--font-header);
+  color: var(--titan-navy);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Buttons */
+.btn-primary {
+  background: var(--forge-orange);
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background: var(--muscle-gold);
+}
+
+/* Cards */
+.card {
+  background: #fff;
+  border: 2px solid var(--titan-steel);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(27, 27, 27, 0.2);
+}
+
+/* Navigation Bar */
+.navbar {
+  background: var(--titan-navy);
+  color: var(--offwhite-sand);
+  padding: 16px;
+}
+
+.navbar a {
+  color: var(--offwhite-sand);
+  margin-right: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: var(--forge-orange);
+}
+
+/* Progress Bars */
+.progress-bar {
+  height: 12px;
+  background: var(--titan-steel);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: var(--forge-orange);
+  width: 60%; /* example */
+}
+
+/* Stats / Leaderboard */
+.stat-highlight {
+  color: var(--muscle-gold);
+  font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+  min-height: calc(100vh - 159px) !important;
+}
