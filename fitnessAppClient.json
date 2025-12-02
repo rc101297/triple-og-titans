@@ -1,5 +1,5 @@
 {
-    "url": "",
+    "url": "https://triple-og-titans.vercel.app/",
     "endpoints": {
         "register": "/register",
         "login": "/login",
