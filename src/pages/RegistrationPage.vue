@@ -50,15 +50,15 @@
           </div>
 
           <div class="d-grid mt-5" id="regButton">
-            <button
+            <router-link
               type="submit"
               class="btn btn-lg text-white fw-semibold btn-brown"
               id="btn-active"
               v-if="isEnabled"
             >
               Join the Forge 💪
-            </button>
-            <button
+            </router-link>
+            <router-link
               type="submit"
               class="btn btn-lg fw-semibold text-white btn-gray"
               id="btn-disabled"
@@ -66,7 +66,7 @@
               disabled
             >
               Join the Forge 💪
-            </button>
+            </router-link>
           </div>
         </form>
       </div>
